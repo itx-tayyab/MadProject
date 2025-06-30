@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/navbarhome"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="withText"/>
+
+    <item android:id="@+id/navbarmenu"
+        android:icon="@drawable/menu"
+        android:title="Menu"
+        app:showAsAction="withText"/>
+
+    <item android:id="@+id/navbarcart"
+        android:icon="@drawable/cart"
+        android:title="Cart"
+        app:showAsAction="withText"/>
+
+    <item android:id="@+id/navbaraccount"
+        android:icon="@drawable/user"
+        android:title="Account"
+        app:showAsAction="withText"/>
+
+</menu>
+
+
